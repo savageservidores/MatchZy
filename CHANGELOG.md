@@ -1,5 +1,46 @@
 # MatchZy Changelog
 
+# 0.8.15
+
+#### October 26, 2025
+
+- Fixed the /noclip command without any permissions.
+- Updated pt-BR translation.
+- Fixed database schema creation error with MySQL.
+
+# 0.8.14
+
+#### October 21, 2025
+
+- Bumped CSS Version.
+- Added .savepos and .loadpos commands in practice mode.
+- Fixed noclip not getting disabled after switching out from practice mode.
+- Fixed issues with rethrow of smoke / molly / nade.
+- Fixed .rethrow always throwing incendiary instead of molotov. 
+- Fixed `RemoteLogHeaderValue` value while resetting the match.
+
+# 0.8.13
+
+#### September 03, 2025
+
+- Fixed coach bomb bug and updated CSS version.
+- Added `matchzy_demo_recording_enabled` convar to toggle demo recording.
+- Fixed the Map Winner Logic in MapWinner event
+- Fixed first Map Name in database stats
+
+# 0.8.12
+
+#### August 25, 2025
+
+- Updated CSS Version to fix `.last` and `.throw` commands.
+
+# 0.8.11
+
+#### August 9, 2025
+
+- Updated CSS Version
+- Fixed SmokeGrenadeProjectile Signatures
+
 # 0.8.10
 
 #### May 12, 2025
