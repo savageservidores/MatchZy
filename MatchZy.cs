@@ -310,6 +310,9 @@ namespace MatchZy
 
             RegisterListener<Listeners.OnMapStart>(mapName => { 
                 AddTimer(1.0f, () => {
+                    if(matchStarted) {
+                        ResetMatch();
+                    }
                     if (!isMatchSetup)
                     {
                         AutoStart();
